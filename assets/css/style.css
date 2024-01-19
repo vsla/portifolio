@@ -224,7 +224,7 @@ h6 {
   justify-content: center;
   line-height: 0;
   border-radius: 50px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .mobile-nav-active {
@@ -542,6 +542,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  
 }
 
 .portfolio #portfolio-flters {
@@ -581,6 +582,10 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  cursor: pointer;
+  background: #040b1417;
+  padding: 6px;
+  border-radius: 8px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -612,7 +617,7 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgba(20, 157, 221);
   transition: 0.3s;
   width: 50%;
 }
@@ -712,6 +717,11 @@ section {
 
 .portifolio-link-text{
   font-size: 18px;
+}
+
+.portifolio-title-container{
+  background: white;
+  padding: 10px;
 }
 
 /*--------------------------------------------------------------
