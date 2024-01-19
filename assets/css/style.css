@@ -703,6 +703,17 @@ section {
   padding: 0;
 }
 
+.portifolio-info-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 8px 0px;
+}
+
+.portifolio-link-text{
+  font-size: 18px;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -923,9 +934,16 @@ section {
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
+.contact .info .linkedin:hover i,
 .contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
+}
+
+.contact .info .contact-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .contact .php-email-form {
